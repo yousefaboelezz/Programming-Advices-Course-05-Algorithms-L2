@@ -72,7 +72,6 @@ int main() {
 
      cout << "\nArray elements before shuffle:\n";
     PrintArray(arr, arrlength);
-/*البرنامج ده بيطبع لوب وتحتها لوب من نفس الارقام بس متلخبطه*/
 
     ShuffeArray(arr, arrlength);
 
