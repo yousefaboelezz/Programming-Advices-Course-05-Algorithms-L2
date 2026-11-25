@@ -35,15 +35,14 @@ int ReadPositiveNumber(string message){
 
  }
 
-// الدالة المعدلة لطباعة المصفوفة بشكل أفقي
 void PrintArray(int arr[100] , int arrlength ){
 
     for(int i = 0; i < arrlength; i++){
 
-         cout << arr[i] << " "; // تطبع العناصر وبينها مسافة
+         cout << arr[i] << " ";
 
     }
-    cout << "\n"; // تنزل سطر جديد مرة واحدة فقط بعد انتهاء الطباعة
+    cout << "\n";
 }
 
 int TimesRepeated(int Number, int arr[100], int arrLength)
