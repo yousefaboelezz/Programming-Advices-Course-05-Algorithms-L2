@@ -32,7 +32,7 @@ void PrintArray(int arr[100], int arrlength)
     for(int i = 0; i < arrlength; i++){
          cout << arr[i] << " ";
     }
-    cout << "\n"; // نقلناها خارج الـ loop لتنزل سطر بعد انتهاء الطباعة بالكامل
+    cout << "\n";
 }
 
 short FindNumberPositionInArray(int Number, int arr[100], int arrLength)
