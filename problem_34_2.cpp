@@ -11,7 +11,6 @@ int RandomNumber(int From, int To)
     return randNum;
 }
 
-// تم إضافة & هنا لتعديل القيمة الأصلية في الـ main
 void FillArrayWithKeys(int arr[100], int &arrLength)
 {
     cout << "Enter number of elements:\n";
@@ -26,7 +25,7 @@ void PrintArray(int arr[100], int arrlength)
     for(int i = 0; i < arrlength; i++){
          cout << arr[i] << " ";
     }
-    cout << "\n"; // نقلناها خارج الـ loop لتنزل سطر بعد انتهاء الطباعة بالكامل
+    cout << "\n";
 }
 
 int FindNumberPositionInArray(int Number, int arr[100], int arrLength)
@@ -51,7 +50,7 @@ int main() {
     srand((unsigned)time(NULL));
 
     int arr[100];
-    int arrLength = 0; // يفضل دائماً إعطائه قيمة مبدئية
+    int arrLength = 0;
 
     FillArrayWithKeys(arr, arrLength);
 
